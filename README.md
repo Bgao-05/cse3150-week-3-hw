@@ -1,1 +1,3 @@
 # cse3150-week-3-hw
+
+Pointers were used to dynamically allocate student names and to pass array parameters between functions. Const was used in fucntions such as printStudent and averageGPA to prevent unintended modifications. References were used in cases such as the addStudent function where the function could directly modify size without pointers and in printStudent for efficient parameter passing. Casting was used with static cast<int> to convert the average to rounded average. Exceptions were used often, for example, in addStudent, when the list was full, it'd throw "List full." Control flow is used in the switch-based menu system, if/else statements, and do/while loops.
